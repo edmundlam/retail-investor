@@ -1,0 +1,14 @@
+theme: jekyll-theme-minimal
+
+collections:
+  recipes:
+    output: true
+
+baseurl: /retail-investor
+permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
