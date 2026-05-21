@@ -130,7 +130,7 @@ hundreds of dollars. Since any decision to sell really involves the subsequent p
 up. But today, trades cost only $10, and transactions costs should not be an excuse for inaction. Taxes must also be
 considered. If a loss is crystalized there will rarely be a problem, but when the sale triggers a capital gain, that
 cost may make 'holding' a better decision. Make sure you do the math. This was discussed previously
-in [Why Make Your Own Decisions](/basics/why-bother/#dontsell).
+in [Why Make Your Own Decisions]({{ site.baseurl }}/basics/why-bother/#dontsell).
 
 Another strategy to control this emotion is to structure your portfolio monitoring. Only look at your personal data
 periodically. In the interim use screen displays that show only the market information. This is the information you

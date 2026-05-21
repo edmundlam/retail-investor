@@ -24,7 +24,7 @@ layout: post
 
 ---
 
-## #1 Reasons Why To Make Your Own Decisions
+## #1 Reasons Why To Make Your Own Decisions {#why}
 
 [&uarr; Top](#top)
 
@@ -97,7 +97,7 @@ layout: post
 
 ---
 
-## #2 Let Your Winning Stocks Run : Don't Hang Onto Losers ... FALSE
+## #2 Let Your Winning Stocks Run : Don't Hang Onto Losers ... FALSE {#winners}
 
 [&uarr; Top](#top)
 
@@ -131,7 +131,7 @@ opposite, to be trotted out in hindsight. Do your best and ignore the experts.
 
 ---
 
-## #3 Rule #1 - Don't Lose Money ... FALSE
+## #3 Rule #1 - Don't Lose Money ... FALSE {#rule1}
 
 [&uarr; Top](#top)
 
@@ -190,7 +190,7 @@ just one particular losing position.
 
 ---
 
-## #4 Asset Allocation Determines 94% of Your Investment Returns ... FALSE
+## #4 Asset Allocation Determines 94% of Your Investment Returns ... FALSE {#allocation}
 
 [&uarr; Top](#top)
 
@@ -363,7 +363,7 @@ proportion.
 
 ---
 
-## #5 There's A Rebalancing Bonus ... FALSE
+## #5 There's A Rebalancing Bonus ... FALSE {#bonus}
 
 [&uarr; Top](#top)
 
@@ -505,7 +505,7 @@ Nothing is what it seems.
 
 ---
 
-## #6 Time In The Market Beats Timing The Market ... FALSE
+## #6 Time In The Market Beats Timing The Market ... FALSE {#timing}
 
 [&uarr; Top](#top)
 
@@ -562,7 +562,7 @@ have great returns, and which will post losses. What it proves is that this argu
 
 ---
 
-## #7 Options Are Risky ... FALSE
+## #7 Options Are Risky ... FALSE {#options}
 
 [&uarr; Top](#top)
 
@@ -582,7 +582,7 @@ P.S. Just in case you are weak in logic - the statement *"Options Are Safe"* wou
 
 ---
 
-## #8 The Upside of Shorting Stocks is Limited to The Stock Price ... FALSE
+## #8 The Upside of Shorting Stocks is Limited to The Stock Price ... FALSE {#short}
 
 [&uarr; Top](#top)
 
@@ -613,7 +613,7 @@ falling markets?
 
 ---
 
-## #9 Capital Gains Are Taxed At Half The Income Rate ... FALSE
+## #9 Capital Gains Are Taxed At Half The Income Rate ... FALSE {#taxrates}
 
 [&uarr; Top](#top)
 
@@ -677,7 +677,7 @@ at the bottom for a separate sheet calculating the effective tax rates for capit
 
 ---
 
-## #10 Taxes Stunt Portfolio Growth ... FALSE
+## #10 Taxes Stunt Portfolio Growth ... FALSE {#dontsell}
 
 [&uarr; Top](#top)
 
@@ -752,7 +752,7 @@ an annualized rate of return basis.
 
 ---
 
-## #11 The Canadian Banking Ombudsman Protects You ... FALSE
+## #11 The Canadian Banking Ombudsman Protects You ... FALSE {#ombudsman}
 
 [&uarr; Top](#top)
 
