@@ -3,7 +3,7 @@ title: "Why Save?"
 layout: post
 ---
 
-> **Note:** This article was originally published on the now-defunct Retail Investor dot org website. The content has been preserved for reference and educational purposes.
+{% include preservation-note.md %}
 
 
 # SAVING MONEY - WHY AND HOW
