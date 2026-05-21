@@ -97,6 +97,8 @@ layout: post
 
 ---
 
+## TRUTHS THAT AREN'T {#truths-that-arent}
+
 ## #2 Let Your Winning Stocks Run : Don't Hang Onto Losers ... FALSE {#winners}
 
 [&uarr; Top](#top)

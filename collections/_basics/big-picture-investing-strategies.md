@@ -316,7 +316,7 @@ not-yet-clear down trend.
 
 The process of evaluating stocks (companies) can be classified as either *passive* or *active*.
 
-### PASSIVE INVESTING - Indexing
+### PASSIVE INVESTING - Indexing {#passive-indexing}
 
 Passive indexing involves buying exposure to large market indexes. You can do this with index mutual
 funds, exchange traded funds (ETFs), or futures contracts. The investor is buying into the general market. He is not
