@@ -29,6 +29,8 @@ make clean
   - `_basics/` — Published articles (rendered at `/basics/:title/`)
   - `_drafts/` — Draft content (not published)
   - `_posts/` — Blog posts (empty, reserved for future use)
+- `_includes/` — Reusable includes (e.g., `preservation-note.md`)
+- `images/` — Site images and diagrams referenced in articles
 - `index.md` — Homepage, lists all articles in the `basics` collection
 - `about.md` — About page
 - `404.html` — Custom 404 page
@@ -45,10 +47,29 @@ layout: post
 ---
 ```
 
-Add a preservation note at the top of each article:
+Add the preservation note include at the top of each article:
+
+```liquid
+{% include preservation-note.md %}
+```
+
+## Internal Linking
+
+Cross-article internal links must use the `{{ site.baseurl }}/basics/` prefix:
+
+```liquid
+[Why Bother]({{ site.baseurl }}/basics/why-bother/)
+```
+
+## Anchor Links (TOC)
+
+Kramdown auto-generates IDs for headings, but the results can be unpredictable. For reliable TOC links, add explicit `{#id}` attributes:
 
 ```markdown
-> **Note:** This article was originally published on the now-defunct Retail Investor dot org website. The content has been preserved for reference and educational purposes.
+## Section Title {#section-id}
+
+Then link to it with:
+[Section Title](#section-id)
 ```
 
 ## Permalink Structure
