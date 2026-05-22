@@ -36,6 +36,14 @@ collections_dir: collections
 collections:
   basics:
     output: true
+  stock_picking:
+    output: true
+  cash_flow:
+    output: true
+  retirement:
+    output: true
+  misc:
+    output: true
 
 permalink: /:categories/:title/
 
@@ -49,6 +57,8 @@ permalink: /:categories/:title/
 #
 exclude:
   - CLAUDE.md
+  - README.md
+  - context/
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/

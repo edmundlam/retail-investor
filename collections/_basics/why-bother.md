@@ -1,5 +1,6 @@
 ---
 title: "Why Bother Making Your Own Investment Decisions?"
+short_title: "Why Bother"
 layout: post
 ---
 

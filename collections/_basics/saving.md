@@ -1,5 +1,6 @@
 ---
 title: "Why Save?"
+short_title: "Saving Money"
 layout: post
 ---
 

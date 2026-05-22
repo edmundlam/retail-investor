@@ -1,5 +1,6 @@
 ---
 title: "Big Picture Investing Strategies"
+short_title: "Big Picture Strategy"
 layout: post
 ---
 

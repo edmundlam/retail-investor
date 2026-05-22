@@ -1,5 +1,6 @@
 ---
 title: "Emotions Destroy Investing Returns"
+short_title: "Emotions Destroy Returns"
 layout: post
 ---
 
