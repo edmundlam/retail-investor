@@ -2,6 +2,7 @@
 title: "Nitty Gritty of the Active Versus Passive Investing Debate"
 short_title: "Active vs. Passive Investing"
 layout: post
+order: 35
 ---
 
 > **Note:** This article was originally published on the now-defunct Retail Investor dot org website. The content has

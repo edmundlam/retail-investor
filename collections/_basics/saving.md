@@ -2,6 +2,7 @@
 title: "Why Save?"
 short_title: "Saving Money"
 layout: post
+order: 05
 ---
 
 {% include preservation-note.md %}

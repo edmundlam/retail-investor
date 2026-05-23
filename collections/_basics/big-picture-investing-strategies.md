@@ -2,6 +2,7 @@
 title: "Big Picture Investing Strategies"
 short_title: "Big Picture Strategy"
 layout: post
+order: 30
 ---
 
 > **Note:** This article was originally published on the now-defunct Retail Investor dot org website. The content has

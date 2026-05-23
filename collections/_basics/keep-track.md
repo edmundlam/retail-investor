@@ -2,6 +2,7 @@
 title: "How To Keep Track Of Your Stock Portfolio Performance and Savings"
 short_title: "Keep Track of Your Investments"
 layout: post
+order: 25
 ---
 
 > **Note:** This article was originally published on the now-defunct Retail Investor dot org website. The content has been preserved for reference and educational purposes.

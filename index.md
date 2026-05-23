@@ -5,7 +5,8 @@ This website is an archive of the content previously available on the now-defunc
 The original site provided valuable financial advice and educational content, and our mission is to preserve and continue sharing this information.
 
 ## Investing Basics
-{% for page in site.basics %}
+{% assign sorted_basics = site.basics | sort: 'order' %}
+{% for page in sorted_basics %}
 * [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
@@ -14,22 +15,26 @@ The original site provided valuable financial advice and educational content, an
   Each section should be moved above this comment block
 
 ## Stock Picking
-{% for page in site.stock_picking %}
+{% assign sorted_stock_picking = site.stock_picking | sort: 'order' %}
+{% for page in sorted_stock_picking %}
 * [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
 ## The Cash Flow Debate
-{% for page in site.cash_flow %}
+{% assign sorted_cash_flow = site.cash_flow | sort: 'order' %}
+{% for page in sorted_cash_flow %}
 * [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
 ## Retirement Issues
-{% for page in site.retirement %}
+{% assign sorted_retirement = site.retirement | sort: 'order' %}
+{% for page in sorted_retirement %}
 * [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
 ## Misc. Topics
-{% for page in site.misc %}
+{% assign sorted_misc = site.misc | sort: 'order' %}
+{% for page in sorted_misc %}
 * [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 {% endcomment %}

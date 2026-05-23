@@ -2,6 +2,7 @@
 title: "Don't Budget"
 short_title: "Don't Budget"
 layout: post
+order: 10
 ---
 
 {% include preservation-note.md %}

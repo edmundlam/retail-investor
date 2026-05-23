@@ -2,6 +2,7 @@
 title: "Emotions Destroy Investing Returns"
 short_title: "Emotions Destroy Returns"
 layout: post
+order: 40
 ---
 
 > **Note:** This article was originally published on the now-defunct Retail Investor dot org website. The content has
