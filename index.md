@@ -1,8 +1,13 @@
 ---
 layout: home
 ---
-This website is an archive of the content previously available on the now-defunct Retail Investor dot Org website. 
-The original site provided valuable financial advice and educational content, and our mission is to preserve and continue sharing this information.
+
+This website is an archive of the content previously available on the now-defunct retailinvestor dot org website which
+existed between around 2010-2022. The original site provided valuable financial advice and educational content, and our 
+mission is to preserve and continue sharing this information.
+
+- [Intro and Site Objectives]({{ site.baseurl }}/intro/)
+- [About]({{ site.baseurl }}/about/)
 
 ## Investing Basics
 {% assign sorted_basics = site.basics | sort: 'order' %}
