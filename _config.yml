@@ -56,7 +56,7 @@ permalink: /:categories/:title/
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - CLAUDE.md
+  - AGENTS.md
   - README.md
   - context/
   - .sass-cache/

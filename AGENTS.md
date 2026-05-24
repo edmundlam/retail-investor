@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to AI coding agents when working with code in this repository.
 
 ## Project Overview
 
@@ -26,12 +26,16 @@ make clean
 
 - `_config.yml` — Jekyll configuration (site title, collections, permalink style)
 - `collections/` — Content directory (not `posts/` or `pages/`)
-  - `_basics/` — Published articles (rendered at `/basics/:title/`)
+  - `_basics/` — Investing basics articles (rendered at `/basics/:title/`)
+  - `_retirement/` — Retirement planning articles (rendered at `/retirement/:title/`)
+  - `_stock_picking/` — Stock picking content (empty, reserved)
+  - `_cash_flow/` — Cash flow debate content (empty, reserved)
+  - `_misc/` — Miscellaneous topics (empty, reserved)
   - `_drafts/` — Draft content (not published)
   - `_posts/` — Blog posts (empty, reserved for future use)
 - `_includes/` — Reusable includes (e.g., `preservation-note.md`)
 - `images/` — Site images and diagrams referenced in articles
-- `index.md` — Homepage, lists all articles in the `basics` collection
+- `index.md` — Homepage, lists articles from active collections (`basics`, `retirement`); other collections are commented out and ready to activate
 - `about.md` — About page
 - `404.html` — Custom 404 page
 - `_site/` — Generated site output (gitignored)
@@ -42,8 +46,10 @@ Articles in `collections/_basics/` use this front matter:
 
 ```yaml
 ---
-title: "Article Title"
+title: "Full Article Title"
+short_title: "Short Title"
 layout: post
+order: 10
 ---
 ```
 
@@ -55,10 +61,11 @@ Add the preservation note include at the top of each article:
 
 ## Internal Linking
 
-Cross-article internal links must use the `{{ site.baseurl }}/basics/` prefix:
+Cross-article internal links must use the `{{ site.baseurl }}/<collection>/` prefix matching the collection name:
 
 ```liquid
 [Why Bother]({{ site.baseurl }}/basics/why-bother/)
+[RRSP Nitty Gritty]({{ site.baseurl }}/retirement/rrsp-nitty-gritty/)
 ```
 
 ## Anchor Links (TOC)
