@@ -15,6 +15,12 @@ mission is to preserve and continue sharing this information.
 * [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
+## Retirement Issues
+{% assign sorted_retirement = site.retirement | sort: 'order' %}
+{% for page in sorted_retirement %}
+* [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
+{% endfor %}
+
 {% comment %}
   TODO: Move sections out of this comment block when adding content to that collection
   Each section should be moved above this comment block
@@ -31,11 +37,7 @@ mission is to preserve and continue sharing this information.
 * [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
-## Retirement Issues
-{% assign sorted_retirement = site.retirement | sort: 'order' %}
-{% for page in sorted_retirement %}
-* [{{ page.short_title | default: page.title }}]({{ site.baseurl }}{{ page.url }})
-{% endfor %}
+
 
 ## Misc. Topics
 {% assign sorted_misc = site.misc | sort: 'order' %}
